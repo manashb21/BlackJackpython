@@ -28,14 +28,14 @@ def draw():
         print("\nHIT(h) | STAND(s)")
         option_select = str(input())
         if (option_select == 'h') ^ (option_select == 'H'):
-            print("--------------------")
+            print("~~~~~~~~~~~~~~~~~~~~")
             print("You chose to HIT.")
-            print("--------------------")
+            print("~~~~~~~~~~~~~~~~~~~~")
             hit(my_cards, dealers_cards)
         elif (option_select == 's') ^ (option_select == 'S'):
-            print("--------------------")
+            print("~~~~~~~~~~~~~~~~~~~~")
             print("You chose to STAND.")
-            print("--------------------")
+            print("~~~~~~~~~~~~~~~~~~~~")
             stand(my_cards, dealers_cards)
 
 draw()
